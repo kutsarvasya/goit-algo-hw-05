@@ -18,20 +18,7 @@
 
 
 ## Результати тестування
-# Substring Search Algorithms Benchmark
 
-This project compares the performance of three substring search algorithms:
-
-- **Knuth-Morris-Pratt (KMP)**
-- **Boyer-Moore (BM)**
-- **Rabin-Karp (RK)**
-
-Testing was conducted using two different text files (`article1.txt` and `article2.txt`) with two types of search targets:
-
-- A substring that exists in the text: `"алгоритм"`
-- A substring that does not exist in the text: `"немаєтакогослова"`
-
-## Benchmark Results
 
 | Algorithm | Article  | Search Type | Time (sec) |
 |-----------|----------|-------------|------------|
@@ -48,15 +35,6 @@ Testing was conducted using two different text files (`article1.txt` and `articl
 | RK        | Article2 | Exists      | 0.0523     |
 | RK        | Article2 | Missing     | 0.0522     |
 
-## Conclusion
-
-- **Boyer-Moore** showed the fastest performance overall across both articles.
-- **KMP** demonstrated consistent average performance.
-- **Rabin-Karp** was the slowest in all scenarios.
-
----
-
-> Benchmarking was done using Python's `timeit` module with 10 iterations per test case.
 ## Висновки
 
 
